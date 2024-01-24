@@ -15,14 +15,14 @@ from rest_framework import status
 from rest_framework.test import APIClient
 
 from core.models import (
-     Recipe,
-     Tag,
-     Ingredient,
+    Recipe,
+    Tag,
+    Ingredient,
 )
 
 from recipe.serializers import (
-     RecipeSerializer,
-     RecipeDetailSerializer,
+    RecipeSerializer,
+    RecipeDetailSerializer,
 )
 
 RECIPES_URL = reverse('recipe:recipe-list')
